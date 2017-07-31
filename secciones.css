@@ -95,3 +95,19 @@ p{
 
 	border-bottom: 2px solid #fff;
 }
+
+.columnasx3 i{
+	float: left; /*hace que el texto se ponga al lado del icono
+	o hacia la izquierda*/
+	padding-right: 20px;
+	color: #444; /*Colocar color a los iconos*/
+
+}
+
+.columnasx3 h4{
+	padding-bottom: 20px;
+}
+
+.columnasx3 p{
+	text-align: justify;
+}
