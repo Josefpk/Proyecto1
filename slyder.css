@@ -1,8 +1,9 @@
 #particles-js{
-	background: url(imagen.jpg);
+	background: url(imagen2.jpg);
 	background-position: center;
 	background-attachment: contain; 
 	background-size: cover;
+	/*background: transparent;*/
 }
 .ancho-letras{
 	/*Se utiliza para bajar el div en este ejemolo
