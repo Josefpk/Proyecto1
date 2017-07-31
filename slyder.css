@@ -1,0 +1,31 @@
+#particles-js{
+	background: url(imagen.jpg);
+	background-position: center;
+	background-attachment: contain; 
+	background-size: cover;
+}
+.ancho-letras{
+	/*Se utiliza para bajar el div en este ejemolo
+	para ubicar en la posicion que queramos*/
+	top: 200px;
+	position: absolute; /*coloca una caja sobre otra*/
+	width: 100%;
+	/*background: rgba(0,0,0,.8);*/
+	text-align: center;
+	z-index: 1;
+}
+.letras-slider{
+	width: 50%;
+	margin: auto; /*se utiliza para alinear segun el tamaño de la caja*/
+}
+.letras-slider h1{
+	color: purple;
+	font-size: 40px;
+	font-family: rale;
+}
+.letras-slider p{
+	color: black;
+	font-size: 20px;
+	font-family: arial;
+	padding-top: 40px;
+}
