@@ -1,0 +1,30 @@
+/*IMPORTAR UNA LETRA DESDE GOOGLE*/
+@import 'https://fonts.googleapis.com/css?family=Lato:300';
+
+
+h1, h2, h4, h5, h6{
+	text-transform: uppercase; /*para que se pongan en mayusculas*/
+	color: #444;
+	font-family: rale;
+}
+h2{
+	font-size: 28px;
+	color: #333;
+}
+h3{
+	font-family: 'Lato', sans-serif; /*se importa la nueva letra desde google*/
+	font-size: 20px;
+	line-height: 1.5; /*negrilla*/
+	padding-top: 20px;
+	font-weight: normal; /*quitar negrilla*/
+	color: #777;
+}
+.wap{
+	width: 90%;
+	margin: auto;
+}
+
+.bienvenidos{
+	margin-top: 50px;
+	text-align: center;
+}
