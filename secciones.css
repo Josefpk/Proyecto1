@@ -6,6 +6,7 @@ h1, h2, h4, h5, h6{
 	text-transform: uppercase; /*para que se pongan en mayusculas*/
 	color: #444;
 	font-family: rale;
+	letter-spacing: 1px;/*que cada letra se separe de otra 1px*/
 }
 h2{
 	font-size: 28px;
@@ -19,6 +20,22 @@ h3{
 	font-weight: normal; /*quitar negrilla*/
 	color: #777;
 }
+h4{
+	margin-top: 15px; /*se se para de la imagen*/
+	font-size: 16px; /*tamaño*/
+}
+h5{
+	font-family: Lato, sans-serif;
+	line-height: 1.5; /*altura de letra*/
+	font-weight: normal; /*se quita la negrilla*/
+	padding: 10px 0; /*se separa del titulo y de la descripcion*/
+	font-size: 12px;
+}
+p{
+	color: #888;
+	font-size: 15px;
+	font-family: Late, sans-serif;
+}
 .wap{
 	width: 90%;
 	margin: auto;
@@ -27,4 +44,54 @@ h3{
 .bienvenidos{
 	margin-top: 50px;
 	text-align: center;
+}
+
+.contenedor-columnas {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px; /*para que no se toquen las secicones*/
+}
+
+.columnasx3{
+	width: 33.333%;
+	float: left;
+	padding: 20px 20px;
+	box-sizing: border-box; /*ocupar todo el tamaño de la caja*/
+	margin: auto; /*par< que el contenedor este centrado*/
+}
+
+.columnasx3 img{
+	width: 100%;
+}
+
+.banner-1{
+	width: 100%;
+	background: #1ABC9C;
+	clear: both; /*elimina la opcion flotante a la izquierda de la classe anterior
+	o bueno, limpia el sitio*/
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.4s;
+}
+
+.banner-1:hover{
+	background: #444;
+	transition: 0.4s;
+}
+
+.banner-1 h3{
+	color: white;
+	font-size: 32px;
+}
+
+.banner-1 a{
+	text-decoration: none; /*eliminar estilos de hipervinculo*/
+	margin-left: 20px; /*Moviendolo a la iz*/
+	font-weight: bold;
+
+	border-bottom: 2px solid #fff;
 }
