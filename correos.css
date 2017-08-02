@@ -1,0 +1,59 @@
+.correos{
+	position: fixed; /*para q este fija la posicion*/
+	top: 200px;
+	z-index: 100;/*anteponer de primero*/
+	left: 0px;
+}
+
+#hotmail a{
+	background: #32506d;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	width: 50px; /*para que todos los enlaces tengan el mismo tamaño*/
+	transition: all .4s ease; /*para que de como forma de onda*/
+}
+#hotmail a:hover{
+	background: black;
+	transition: 0.4s;
+	padding: 10px 40px;
+}
+#youtube a{
+	background: #bb0000;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	width: 50px; /*para que todos los enlaces tengan el mismo tamaño*/
+	transition: all .4s ease; /*para que de como forma de onda*/
+}
+#youtube a:hover{
+	background: black;
+	transition: 0.4s;
+	padding: 10px 40px;
+}
+#linkedin a{
+	background: #007bb6;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	width: 50px; /*para que todos los enlaces tengan el mismo tamaño*/
+	transition: all .4s ease; /*para que de como forma de onda*/
+}
+#linkedin a:hover{
+	background: black;
+	transition: 0.4s;
+	padding: 10px 40px;
+}
+#yahoo a{
+	background: #7B0099;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	width: 50px; /*para que todos los enlaces tengan el mismo tamaño*/
+	transition: all .4s ease; /*para que de como forma de onda*/
+}
+#yahoo a:hover{
+	background: black;
+	transition: 0.4s;
+	padding: 10px 40px;
+}
