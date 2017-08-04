@@ -9,6 +9,7 @@
 	<LINK REL="stylesheet" TYPE="text/css" HREF="secciones.css">
 	<LINK REL="stylesheet" TYPE="text/css" HREF="correos.css">
 	<link rel="stylesheet" type="text/css" href="tabla.css">
+	<link rel="stylesheet" type="text/css" href="formulario.css">
 	<link rel="stylesheet" type="text/css" href="sss/sss.css" media="all">
 	<script src="https://use.fontawesome.com/dc6df78863.js"></script>
 </head>
@@ -231,8 +232,50 @@
 	</div>
 	
 </section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6808155066146!2d-75.57963525032675!3d6.173455728825987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468256e469984d%3A0xf27d3806b62bd60b!2sDg.+29%2C+Envigado%2C+Antioquia%2C+Colombia!5e0!3m2!1ses!2ses!4v1501884081481" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-
+<section class="wap">
+	<!-- SECCION CON TABLAS-->
+	<section class="bienvenidos">
+		<h2>CONTACTOS</h2>
+		<h3>Si quiere que le explique, pude coontactarnos en los sigueintes enlaces y/o llenar el formulario</h3>
+	</section>
+	<section class="dos-columnas">
+		<div class="formulario">
+			<h4>Formulario de Contacto</h4>
+			<!--Nos permiten hacer formularios de contacto (FORM)
+			(ACTION) es para llamar al archivo .php para que se envie el formulario-->
+			<form action="enviar.php" method="post">
+				<input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+				<input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+				<input type="tel" name="telefono" placeholder="Teléfono" class="caja-1" required>
+				<input type="text" name="asunto" placeholder="Asunto" class="caja-1">
+				<textarea name="mensaje" id="" cols="30" rows="10" placeholder="Comentarios" class="caja-2"></textarea>
+				<button type="submit" class="comprar-a correr">Enviar</button>
+			</form>
+		</div>
+		<div class="datos">
+			<ul class="datos-contacto">
+				<li><i class="fa fa-map-marker" aria-hidden="true"></i></li> 
+				<li><h4>Dirección:</h4>Diagonal 29a-sur #94 - Envigado</li>
+				<li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+				<li><h4>Teléfono:</h4>+57 1234567</li>
+				<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+				<li><h4>E-mail</h4>josef.ban.v@gmail.com</li>
+			</ul>
+		</div>
+		<div class="datos">
+			<ul class="datos-contacto">
+				<li><i class="fa fa-twitter" aria-hidden="true"></i></li> 
+				<li><h4>Twitter:</h4>@josefbanguera</li>
+				<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+				<li><h4>Facebook:</h4>@Josefbanguera</li>
+				<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+				<li><h4>Instagram:</h4>@Josefbanguera</li>
+			</ul>
+		</div>
+	</section>
+</section>
 
 <script src="particles.js"></script>
 <script src="app.js"></script>
