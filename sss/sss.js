@@ -13,8 +13,8 @@ $.fn.sss = function(options) {
 	var settings = $.extend({
 	slideShow : true,
 	startOn : 0,
-	speed : 3500,
-	transition : 400,
+	speed : 6500,
+	transition : 800,
 	arrows : true
 	}, options);
 
